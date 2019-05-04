@@ -1,3 +1,5 @@
+package com.mondari.adapter;
+
 /**
  * ObjectAdapter
  *
@@ -6,9 +8,9 @@
  */
 public class ObjectAdapter implements Target{
 
-    Adaptee adaptee;
+    private Adaptee adaptee;
 
-    public ObjectAdapter(Adaptee adaptee) {
+    ObjectAdapter(Adaptee adaptee) {
         this.adaptee = adaptee;
     }
 

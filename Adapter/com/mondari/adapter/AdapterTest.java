@@ -1,3 +1,5 @@
+package com.mondari.adapter;
+
 /**
  * AdapterTest
  */

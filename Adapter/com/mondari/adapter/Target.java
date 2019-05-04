@@ -1,3 +1,5 @@
+package com.mondari.adapter;
+
 /**
  * Target
  * 
@@ -5,5 +7,5 @@
  */
 public interface Target {
 
-    public void targetMethod();
+    void targetMethod();
 }
