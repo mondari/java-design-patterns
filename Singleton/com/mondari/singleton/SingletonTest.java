@@ -66,10 +66,5 @@ public class SingletonTest<T> {
         SingletonTest<StaticInnerClassSingleton> staticInnerClassSingletonSingletonTest = new SingletonTest<>(StaticInnerClassSingleton::getInstance);
         staticInnerClassSingletonSingletonTest.multiThreadTest();
 
-        try {
-            LazySingleton.class.getClassLoader().loadClass("");
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
     }
 }

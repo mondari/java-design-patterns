@@ -5,7 +5,7 @@ package com.mondari.singleton;
  *
  * 双重检查锁（DCL）升级版，解决双重检查锁某些情况失效的问题
  */
-public class StaticInnerClassSingleton {
+class StaticInnerClassSingleton {
 
     private StaticInnerClassSingleton() {
     }

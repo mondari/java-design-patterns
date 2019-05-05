@@ -5,7 +5,7 @@ package com.mondari.singleton;
  *
  * 懒汉单例升级版，解决开销过大的问题
  */
-public class DoubleCheckLockingSingleton {
+class DoubleCheckLockingSingleton {
 
     /**
      * 类变量，必须添加 volatile 关键字
