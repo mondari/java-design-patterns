@@ -1,4 +1,6 @@
-#  Java Design Patterns
+[TOC]
+
+#  Java Design Patterns 设计模式
 
 ## Creational 创造型
 
@@ -31,3 +33,7 @@
 - Memento 备忘录模式
 - State 状态模式
 - Visitor 访问者模式
+
+## 使用方式
+
+不要直接用IDE打开该项目，而是通过导入方式导入该项目，否则执行测试用例时会失败
