@@ -1,10 +1,8 @@
-[TOC]
-
 #  Java Design Patterns 设计模式
 
 ## Creational 创造型
 
-- Singleton 单例模式
+- [Singleton](singleton/README.md) 单例模式
 - Prototype 原型模式
 - Builder 构造器模式
 - Factory Method 工厂方法
@@ -12,11 +10,11 @@
 
 ## Structural 结构型
 
-- Adapter 适配器模式
+- [Adapter](adapter/README.md) 适配器模式
 - Bridge 桥接模式
 - Composite 组合模式
-- Decorater 装饰器模式
-- Proxy 代理模式
+- [Decorator](decorator/README.md) 装饰器模式
+- [Proxy](proxy/README.md) 代理模式
 - Facade 外观模式
 - Flyweight 享元模式
 
@@ -34,6 +32,4 @@
 - State 状态模式
 - Visitor 访问者模式
 
-## 使用方式
-
-不要直接用IDE打开该项目，而是通过导入方式导入该项目，否则执行测试用例时会失败
+## *简单工厂、工厂方法、抽象工厂的区别
